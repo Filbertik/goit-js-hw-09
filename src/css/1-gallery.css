@@ -7,7 +7,7 @@
   margin: 0 auto;
   width: 1440px;
   height: 696px;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
   background: #fff;
 }
