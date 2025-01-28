@@ -7,30 +7,9 @@
     <title>Form</title>
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-SA0SCy8F.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-i-3hAjnC.css">
   </head>
   <body>
-    <!-- <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="./img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
- -->
-
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
@@ -41,7 +20,19 @@
         <!-- <a class="back-link" href="./index.html">Go back</a>
  -->
       </div>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </main>
 
+    <!-- <script src="./js/2-form.js"></script> -->
   </body>
 </html>
